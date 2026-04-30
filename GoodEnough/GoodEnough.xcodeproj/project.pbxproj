@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000001 /* GoodEnoughApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000001 /* GoodEnoughApp.swift */; };
+		A00000000000000000000002 /* DailyEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000002 /* DailyEntry.swift */; };
+		A00000000000000000000004 /* Challenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000004 /* Challenge.swift */; };
+		A00000000000000000000005 /* HeatmapDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000005 /* HeatmapDay.swift */; };
+		A00000000000000000000006 /* AppStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000006 /* AppStore.swift */; };
+		A00000000000000000000007 /* GoodEnoughStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000007 /* GoodEnoughStorage.swift */; };
+		A00000000000000000000008 /* ChallengeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000008 /* ChallengeProvider.swift */; };
+		A0000000000000000000000A /* DateKeyProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000A /* DateKeyProvider.swift */; };
+		A0000000000000000000000B /* MenuBarIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000B /* MenuBarIconView.swift */; };
+		A0000000000000000000000C /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000C /* PopoverView.swift */; };
+		A0000000000000000000000D /* ChallengeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000D /* ChallengeCardView.swift */; };
+		A0000000000000000000000E /* HeatmapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000E /* HeatmapView.swift */; };
+		A0000000000000000000000F /* DaySquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0000000000000000000000F /* DaySquareView.swift */; };
+		A00000000000000000000011 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000011 /* FooterView.swift */; };
+		A00000000000000000000012 /* ChallengeBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00000000000000000000012 /* ChallengeBank.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B00000000000000000000001 /* GoodEnoughApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodEnoughApp.swift; sourceTree = "<group>"; };
+		B00000000000000000000002 /* DailyEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyEntry.swift; sourceTree = "<group>"; };
+		B00000000000000000000004 /* Challenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge.swift; sourceTree = "<group>"; };
+		B00000000000000000000005 /* HeatmapDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapDay.swift; sourceTree = "<group>"; };
+		B00000000000000000000006 /* AppStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore.swift; sourceTree = "<group>"; };
+		B00000000000000000000007 /* GoodEnoughStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodEnoughStorage.swift; sourceTree = "<group>"; };
+		B00000000000000000000008 /* ChallengeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeProvider.swift; sourceTree = "<group>"; };
+		B0000000000000000000000A /* DateKeyProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateKeyProvider.swift; sourceTree = "<group>"; };
+		B0000000000000000000000B /* MenuBarIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarIconView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000C /* PopoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000D /* ChallengeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCardView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000E /* HeatmapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatmapView.swift; sourceTree = "<group>"; };
+		B0000000000000000000000F /* DaySquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySquareView.swift; sourceTree = "<group>"; };
+		B00000000000000000000011 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		B00000000000000000000012 /* ChallengeBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeBank.swift; sourceTree = "<group>"; };
+		B00000000000000000000013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00000000000000000000014 /* Good Enough.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Good Enough.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C00000000000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D00000000000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				D00000000000000000000002 /* GoodEnough */,
+				D00000000000000000000009 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D00000000000000000000002 /* GoodEnough */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000001 /* GoodEnoughApp.swift */,
+				B00000000000000000000013 /* Info.plist */,
+				D00000000000000000000003 /* Models */,
+				D00000000000000000000004 /* State */,
+				D00000000000000000000005 /* Services */,
+				D00000000000000000000006 /* Views */,
+				D00000000000000000000007 /* Resources */,
+			);
+			path = GoodEnough;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000003 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000002 /* DailyEntry.swift */,
+				B00000000000000000000004 /* Challenge.swift */,
+				B00000000000000000000005 /* HeatmapDay.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000004 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000006 /* AppStore.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000005 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000007 /* GoodEnoughStorage.swift */,
+				B00000000000000000000008 /* ChallengeProvider.swift */,
+				B0000000000000000000000A /* DateKeyProvider.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0000000000000000000000B /* MenuBarIconView.swift */,
+				B0000000000000000000000C /* PopoverView.swift */,
+				B0000000000000000000000D /* ChallengeCardView.swift */,
+				B0000000000000000000000E /* HeatmapView.swift */,
+				B0000000000000000000000F /* DaySquareView.swift */,
+				B00000000000000000000011 /* FooterView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000007 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000012 /* ChallengeBank.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D00000000000000000000009 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00000000000000000000014 /* Good Enough.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00000000000000000000001 /* GoodEnough */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F00000000000000000000004 /* Build configuration list for PBXNativeTarget "GoodEnough" */;
+			buildPhases = (
+				C00000000000000000000002 /* Sources */,
+				C00000000000000000000001 /* Frameworks */,
+				C00000000000000000000003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoodEnough;
+			productName = "Good Enough";
+			productReference = B00000000000000000000014 /* Good Enough.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00000000000000000000002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					E00000000000000000000001 = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+				};
+			};
+			buildConfigurationList = F00000000000000000000001 /* Build configuration list for PBXProject "GoodEnough" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D00000000000000000000001;
+			productRefGroup = D00000000000000000000009 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00000000000000000000001 /* GoodEnough */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C00000000000000000000003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C00000000000000000000002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000001 /* GoodEnoughApp.swift in Sources */,
+				A00000000000000000000002 /* DailyEntry.swift in Sources */,
+				A00000000000000000000004 /* Challenge.swift in Sources */,
+				A00000000000000000000005 /* HeatmapDay.swift in Sources */,
+				A00000000000000000000006 /* AppStore.swift in Sources */,
+				A00000000000000000000007 /* GoodEnoughStorage.swift in Sources */,
+				A00000000000000000000008 /* ChallengeProvider.swift in Sources */,
+				A0000000000000000000000A /* DateKeyProvider.swift in Sources */,
+				A0000000000000000000000B /* MenuBarIconView.swift in Sources */,
+				A0000000000000000000000C /* PopoverView.swift in Sources */,
+				A0000000000000000000000D /* ChallengeCardView.swift in Sources */,
+				A0000000000000000000000E /* HeatmapView.swift in Sources */,
+				A0000000000000000000000F /* DaySquareView.swift in Sources */,
+				A00000000000000000000011 /* FooterView.swift in Sources */,
+				A00000000000000000000012 /* ChallengeBank.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F00000000000000000000002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F00000000000000000000003 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F00000000000000000000005 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GoodEnough/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoberobin.GoodEnough;
+				PRODUCT_MODULE_NAME = GoodEnough;
+				PRODUCT_NAME = "Good Enough";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F00000000000000000000006 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = GoodEnough/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hoberobin.GoodEnough;
+				PRODUCT_MODULE_NAME = GoodEnough;
+				PRODUCT_NAME = "Good Enough";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F00000000000000000000001 /* Build configuration list for PBXProject "GoodEnough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000002 /* Debug */,
+				F00000000000000000000003 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F00000000000000000000004 /* Build configuration list for PBXNativeTarget "GoodEnough" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F00000000000000000000005 /* Debug */,
+				F00000000000000000000006 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00000000000000000000002 /* Project object */;
+}
