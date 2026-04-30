@@ -4,7 +4,7 @@
 
 - App is named Good Enough.
 - App lives in the macOS menu bar.
-- App gives one tiny challenge per day.
+- App gives one bare-minimum desk reset per day.
 - Completing the challenge fills today's square.
 
 ## UX

@@ -2,17 +2,17 @@
 
 ## One-Sentence Pitch
 
-Good Enough is a macOS menu bar app that gives you one tiny daily challenge and rewards you with a filled square when you do it.
+Good Enough is a macOS menu bar app for desk days that asks for the bare minimum and rewards you with a filled square when you click **That counts**.
 
 ## Product Wedge
 
-The app lives where the user already works: the macOS menu bar.
+The app lives where the user already works: in front of a computer, in the macOS menu bar.
 
-It should feel ambient, glanceable, and easy to complete without leaving the current workflow.
+It should feel ambient, glanceable, and easy to complete without leaving the desk or current workflow.
 
 ## Target User
 
-A person who works from a computer all day and wants small nudges to:
+A person who works from home, sits at a desk, or works from a computer all day and wants barely-any-effort nudges to:
 
 - move slightly
 - reset mentally
@@ -20,14 +20,14 @@ A person who works from a computer all day and wants small nudges to:
 - tidy something
 - break autopilot
 
-The user does not want a serious self-improvement system.
+The user does not want a serious self-improvement system. They want something small enough that it barely asks anything of them.
 
 ## User Motivation
 
 The main motivation is:
 
 - fill today's square
-- do one small thing
+- do the bare minimum
 - get a small visual reward
 - feel a tiny sense of completion
 
@@ -39,7 +39,7 @@ The product creates tiny tension:
 
 Then resolves it quickly:
 
-> Good enough. Square earned.
+> That counts. Good enough.
 
 ## MVP Success Criteria
 
