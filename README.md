@@ -6,6 +6,9 @@ It asks for the bare minimum: look away, stand up, close a tab, move one thing, 
 
 No goals. No streak pressure. No notifications. No dashboard.
 
+<img width="326" height="236" alt="CleanShot 2026-05-13 at 09 07 39" src="https://github.com/user-attachments/assets/b16f0e6a-2d9b-45ee-b47b-94a9c43e6c12" />
+
+
 ## What It Does
 
 - Lives quietly in the macOS menu bar
